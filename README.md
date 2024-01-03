@@ -1,1 +1,1 @@
-# prueba_t-cnica_react
+# prueba_técnica-cnica_react
