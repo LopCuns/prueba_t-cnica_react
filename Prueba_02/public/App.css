@@ -1,0 +1,23 @@
+*,::after,::before {
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
+  justify-items: center;
+  gap: 1rem;
+}
+
+input {
+  min-width: 20rem;
+}

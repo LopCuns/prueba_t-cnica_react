@@ -1,0 +1,15 @@
+*,::after,::before {
+  box-sizing: border-box;
+}
+
+article {
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 20rem;
+  text-align: center;
+  padding: 2rem;
+}
+img {
+  width: 15rem;
+}
